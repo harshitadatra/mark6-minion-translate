@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
     <style>
         textarea {
@@ -13,27 +14,35 @@
             margin: 1rem;
             padding: 1rem;
         }
-        #output {
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
+        
+
     </style>
-    </style>
+    
    
 </head>
 <body>
+    <h1>minion talk</h1>
+   <img class="image" src="https://www.color-name.com/wp-content/uploads/minion-yellow.png" alt=""/>
+
     <textarea id="txt-input"
     placeholder="put your sentence in English here and we will convert it to banana">
 </textarea>
+<button id="btn-translate">translate</button>
 
-    <h1>minion talk</h1>
-    <div style="font-size: larger;">Output will come here 👇</div>
+    <div style="font-size: larger; text-align: center;">Output will come here 👇</div>
     <div id="output"></div>
-    <button id="btn-translate">translate</button>
     <script src="app.js" type="text/javascript"></script>
+    <footer class="footer">
+        <div style="font-size: larger;">Connect with me on</div>
+        <ul class="social-links">
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in//"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://github.com/"><i class="fab fa-github-alt"></i></a></li>
+            <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com//"><i style="font-weight: 600;" class="fab fa-instagram"></i></a></i></li>
+        </ul>
+      
+        
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,41 @@
+h1
+{
+text-align: center;
+background-color:black;
+color: whitesmoke;
+padding: 2rem 1rem;
+
+}
+body
+{
+    background-color: #f5c452;
+    margin: 0px;
+    
+}
+#output{
+    border: 2px solid black;
+    height: 15vh;
+    width: 40vw;
+    margin: 1rem auto;
+    padding: 1rem;
+    background-color: whitesmoke;
+}
+#txt-input{
+    border: 2px solid black;
+    height: 15vh;
+    width: 40vw;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+#btn-translate
+{
+   margin-left: 22rem;
+   background-color:#f5c452;;
+}
+.image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+
+}
+
