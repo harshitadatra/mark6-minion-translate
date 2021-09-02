@@ -1,3 +1,7 @@
+var warning = "You can only use this app 5 times in an hour due to rate limiting problem of the API.\nPlease use it wisely!\nSorry for the inconvenience. 🙂";
+alert(warning);
+
+
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput= document.querySelector("#txt-input");
 var outputDiv =document.querySelector("#output");

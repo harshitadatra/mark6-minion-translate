@@ -1,17 +1,29 @@
-h1
-{
-text-align: center;
-background-color:black;
-color: whitesmoke;
-padding: 2rem 1rem;
+:root{
+box-sizing: border-box;
 
 }
 body
 {
     background-color: #f5c452;
-    margin: 0px;
-    
+    margin: 0;
 }
+h1
+{
+text-align: center;
+background-color:black;
+color: whitesmoke;
+padding-top: 1rem;
+margin:auto;
+}
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
 #output{
     border: 2px solid black;
     height: 15vh;
@@ -27,15 +39,47 @@ body
     margin: 1rem auto;
     padding: 1rem;
 }
-#btn-translate
-{
-   margin-left: 22rem;
-   background-color:#f5c452;;
-}
+
 .image {
-    max-width: 350px;
+    max-width: 300px;
+    max-height: 100px;
     display: block;
     margin: auto;
 
+}
+#btn-translate
+ {
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    background-color: cadetblue;
+    
+
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+  }
+  .footer {
+
+    background-color:black;
+    padding-bottom: 1rem;
+    
+
+    text-align: center;
+    color: white;
+    
+}
+
+.footer .link {
+    color: white;
+}
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+    font-weight: bold;
 }
 
