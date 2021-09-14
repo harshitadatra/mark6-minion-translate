@@ -1,4 +1,4 @@
-var warning = "You can only use this app 5 times in an hour due to rate limiting problem of the API.\nPlease use it wisely!\nSorry for the inconvenience. 🙂";
+var warning = "You can only use this app 5 times in an hour due to rate limiting problem of the API.\nPlease use it wisely!\n";
 alert(warning);
 
 
